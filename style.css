@@ -329,11 +329,11 @@ nav{
 	margin-top: 20px;
 	color: var(--blue)
 }
-/*  Services section start here*/
-.services{
+/*  products section start here*/
+.products{
 	padding: 50px 100px;
 }
-.services .services-row{
+.products .products-row{
 	display: flex;
 	justify-content: space-between;
 	padding: 30px 0px;
@@ -371,7 +371,7 @@ nav{
 .service-card h1{
 	color: var(--blue);
 }
-.services-btn{
+.products-btn{
 	padding: 15px 30px;
 	background-color: var(--blue);
 	color: white;
@@ -380,15 +380,15 @@ nav{
 	margin-top: 10px;
 	width: 100%;
 }
-.services-talking{
+.products-talking{
 	padding: 80px 100px;
 	text-align: center;
-	background-image: url("/services.jpg");
+	background-image: url("/products.jpg");
 	background-position: center;
 	position: relative;
 	z-index: 1;
 }
-.services-talking::before{
+.products-talking::before{
 	content: "";
 	position: absolute;
 	width: 100%;
@@ -399,10 +399,10 @@ nav{
 	opacity: .5;
 	z-index: -1;
 }
-.services-talking div{
+.products-talking div{
 	padding: 0px 150px;
 }
-.services-talking div button{
+.products-talking div button{
 	border:none;
 	border-radius: 4px;
 	color: white;
@@ -411,11 +411,11 @@ nav{
 	transition: 0.3s;
 	margin-top: 30px;
 }
-.services-talking div button:hover{
+.products-talking div button:hover{
 	background-color: var(--wood);
 	color: var(--blue);
 }
-.services-talking h1{
+.products-talking h1{
 	font-size: 3.5rem;
 	margin: 0;
 	font-family: 'Rubik', sans-serif;
