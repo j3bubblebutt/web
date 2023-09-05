@@ -342,32 +342,21 @@
 			<h1>Click to Contact on whatsapp</h1>
 			<a href="tel:+946617298"><i class="fa-brands fa-whatsapp"></i><span> +94-661-7298</span> </a>
 		</div>
-		<div class="form">
-			<form action="https://formspree.io/f/xwkdbnzv"method="POST">
-				<h2>Contact With Email</h2>
-				<div class="form-group">
-					<div class="input-box">
-						<label>First Name</label><br>
-						<input type="text" name="" placeholder="Enter Your First Name">
-					</div>
-					<div class="input-box">
-						<label>Last Name</label><br>
-						<input type="text" name="" placeholder="Enter Your Last Name">
-					</div>
-				</div>
-				<div class="">
-					<label>Email</label><br />
-					<input type="email" name="" placeholder="Enter Your Email">
-				</div>
-				<div class="">
-					<label>Message</label><br>
-					<textarea placeholder="Message" rows="5"></textarea>
-				</div>
-				<div>
-					<button>Submit</button>
-				</div>
-			</form>
-		</div>
+		<form
+  action="https://formspree.io/f/xwkdbnzv"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
 	</section>
 	<!-- footr section -->
 	<footer>
